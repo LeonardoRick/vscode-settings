@@ -29,3 +29,4 @@
 // to find it in VSCode
 // files -> preferences -> key bindings settings -> Open Key Bind settings (JSON) left up corner
 // or Ctrl + E and type 'keybindings.json'
+// Toggle between terminals// Toggle between terminal and editor focus
