@@ -1,0 +1,28 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+// Toggle between terminal and editor focus
+{ "key": "ctrl+l",
+  "command": "workbench.action.terminal.focus"},
+{ "key": "ctrl+l", 
+  "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"},
+//toggle between terminalls
+{ "key": "ctrl+shift+k", "command": "workbench.action.terminal.focusNext" },
+{
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.terminal.focusPrevious"
+},
+{
+    "key": "ctrl+;",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+/",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+}
+]
+
+// to find it in VSCode
+// files -> preferences -> key bindings settings -> Open Key Bind settings (JSON) left up corner
+// or Ctrl + E and type 'keybindings.json'
